@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "adv_give_smores_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "puresmores:craft_chocolate",
+      "puresmores:craft_graham_cracker",
+      "puresmores:craft_marshmallow",
+      "puresmores:campfire_toasted_marshmallow",
+      "puresmores:craft_smore"
+    ]
+  }
+}

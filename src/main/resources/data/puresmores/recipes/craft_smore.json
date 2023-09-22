@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "puresmores:graham_cracker"
+    },
+    {
+      "item": "puresmores:toasted_marshmallow"
+    },
+    {
+      "item": "puresmores:chocolate"
+    },
+    {
+      "item": "puresmores:graham_cracker"
+    }
+  ],
+  "result": {
+    "item": "puresmores:smore",
+    "count": 1
+  }
+}

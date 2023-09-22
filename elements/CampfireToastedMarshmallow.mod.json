@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:Marshmallow"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:ToastedMarshmallow"
+    },
+    "name": "campfire_toasted_marshmallow",
+    "namespace": "mod"
+  }
+}
