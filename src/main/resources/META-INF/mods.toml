@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="Custom license"
 
 [[mods]]
 modId="puresmores"
-version="1.0.0"
-displayName="Pure Smores"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="purejosh, MCreator"
+version="1.1.0"
+displayName="Pure S'mores"
+credits="purejosh"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/puresmores"
+logoFile="logo.png"
+authors="purejosh"
+description="Enjoy delicious s'mores next to a campfire with your friends!"
 
 [[dependencies.puresmores]]
     modId="minecraft"

@@ -1,9 +1,15 @@
 {
-  "advancements.adv_give_smores_recipes.title": "Adv Give Smores Recipes",
-  "item.puresmores.marshmallow": "Marshmallow",
+  "advancements.adv_give_smores_recipes.title": "Time for S\u0027mores!",
+  "advancements.adv_give_not_a_weapon.title": "That\u0027s not a weapon...",
   "item.puresmores.chocolate": "Chocolate",
-  "advancements.adv_give_smores_recipes.descr": "Adv Give Smores Recipes",
+  "advancements.adv_give_toasty.title": "Toasty",
+  "item.puresmores.graham_cracker": "Graham Cracker",
+  "advancements.adv_give_toasty.descr": "Roast a delicious marshmallow using a source of heat.",
+  "subtitles.marshmallow_cooking": "Marshmallow cooking",
+  "item.puresmores.marshmallow": "Marshmallow",
+  "advancements.adv_give_not_a_weapon.descr": "Hit any entity with a Marshmallow Hamm- uh, Marshmallow on a Stick.",
+  "advancements.adv_give_smores_recipes.descr": "Use sugar to craft up the components for a delicious, satisfying treat.",
   "item.puresmores.toasted_marshmallow": "Toasted Marshmallow",
-  "item.puresmores.smore": "S\u0027more",
-  "item.puresmores.graham_cracker": "Graham Cracker"
+  "item.puresmores.marshmallow_stick": "Marshmallow on a Stick",
+  "item.puresmores.smore": "S\u0027more"
 }

@@ -1,4 +1,16 @@
 {
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "puresmores:smore"
+    },
+    "title": "Time for S'mores!",
+    "description": "Use sugar to craft up the components for a delicious, satisfying treat.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
   "criteria": {
     "adv_give_smores_recipes": {
       "trigger": "minecraft:inventory_changed",
@@ -20,11 +32,12 @@
   "rewards": {
     "experience": 0,
     "recipes": [
-      "puresmores:craft_chocolate",
-      "puresmores:craft_graham_cracker",
-      "puresmores:craft_marshmallow",
-      "puresmores:campfire_toasted_marshmallow",
-      "puresmores:craft_smore"
+      "puresmores:marshmallow_stick_craft",
+      "puresmores:toasted_marshmallow_campfire",
+      "puresmores:chocolate_craft",
+      "puresmores:graham_cracker_craft",
+      "puresmores:marshmallow_craft",
+      "puresmores:smore_craft"
     ]
   }
 }

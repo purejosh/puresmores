@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "puresmores",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Pure S'mores",
   "description": "Enjoy delicious s'mores next to a campfire with your friends!",
   "authors": [
     "purejosh"
   ],
   "contact": {
-    "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/pure-smores-fabric-forge",
+    "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/puresmores",
     "sources": ""
   },
   "license": "Custom license",

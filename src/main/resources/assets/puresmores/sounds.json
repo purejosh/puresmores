@@ -1,0 +1,20 @@
+{
+  "marshmallow_cooking": {
+    "category": "ambient",
+    "subtitle": "subtitles.marshmallow_cooking",
+    "sounds": [
+      {
+        "name": "puresmores:extinguish1",
+        "stream": false
+      },
+      {
+        "name": "puresmores:extinguish2",
+        "stream": false
+      },
+      {
+        "name": "puresmores:extinguish3",
+        "stream": false
+      }
+    ]
+  }
+}

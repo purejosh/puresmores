@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "puresmores:toasted_marshmallow"
+    },
+    "title": "Toasty",
+    "description": "Roast a delicious marshmallow using a source of heat.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_give_toasty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "puresmores:toasted_marshmallow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "puresmores:adv_give_smores_recipes"
+}

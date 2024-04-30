@@ -15,6 +15,8 @@ package net.purejosh.puresmores;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.purejosh.puresmores.init.PuresmoresModSounds;
+import net.purejosh.puresmores.init.PuresmoresModProcedures;
 import net.purejosh.puresmores.init.PuresmoresModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -28,6 +30,10 @@ public class PuresmoresMod implements ModInitializer {
 		LOGGER.info("Initializing PuresmoresMod");
 
 		PuresmoresModItems.load();
+
+		PuresmoresModProcedures.load();
+
+		PuresmoresModSounds.load();
 
 	}
 }
