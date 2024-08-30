@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "net.purejosh.puresmores.mixin",
+	"package": "net.purejosh.puresmores.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

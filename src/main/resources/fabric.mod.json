@@ -1,34 +1,42 @@
 {
-  "schemaVersion": 1,
-  "id": "puresmores",
-  "version": "1.1.0",
-  "name": "Pure S'mores",
-  "description": "Enjoy delicious s'mores next to a campfire with your friends!",
-  "authors": [
-    "purejosh"
-  ],
-  "contact": {
-    "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/puresmores",
-    "sources": ""
-  },
-  "license": "Custom license",
-  "icon": "assets/puresmores/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.purejosh.puresmores.PuresmoresMod"
-    ],
-    "client": [
-      "net.purejosh.puresmores.ClientInit"
-    ]
-  },
-  "depends": {
-    "fabricloader": ">=0.14.21",
-    "fabric": "*",
-    "minecraft": "~1.20",
-    "java": ">=17"
-  },
-  "mixins": [
-    "puresmores.mixins.json"
-  ]
+	"schemaVersion": 1,
+	"id": "puresmores",
+	"version": "2.0.0",
+	"name": "Pure S'mores",
+	"description": "Enjoy delicious s'mores next to a campfire with your friends!",
+	"authors": [
+		"purejosh"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/puresmores",
+		"sources": "https://github.com/purejosh/puresmores",
+		"issues": "https://github.com/purejosh/puresmores/issues"
+	},
+	"license": "MIT-R-NR",
+	"icon": "assets/puresmores/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.purejosh.puresmores.PureSmores"
+		],
+		"client": [
+			"net.purejosh.puresmores.PureSmoresClient"
+		]
+	},
+	"mixins": [
+		"puresmores.mixins.json",
+		{
+			"config": "puresmores.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }

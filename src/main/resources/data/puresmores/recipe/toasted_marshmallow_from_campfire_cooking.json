@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "puresmores:marshmallow"
+  },
+  "result": {
+    "id": "puresmores:toasted_marshmallow"
+  },
+  "experience": 0,
+  "cookingtime": 200
+}

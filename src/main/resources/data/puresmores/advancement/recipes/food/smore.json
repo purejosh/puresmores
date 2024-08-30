@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_sugar": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sugar"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_sugar"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "puresmores:chocolate",
+            "puresmores:graham_cracker",
+            "puresmores:marshmallow",
+            "puresmores:smore",
+            "puresmores:toasted_marshmallow_from_campfire_cooking"
+        ]
+    }
+}
