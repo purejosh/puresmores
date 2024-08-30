@@ -15,4 +15,4 @@ Please open an issue in Github, and choose [Bug](https://github.com/purejosh/pur
 Please join our [Discord](https://discord.com/invite/X6AsDnqex6) for any additional assistance.
 
 ## License
-[MIT-R-NR](https://github.com/purejosh/puresmores/blob/main/LICENSE.txt)
+[MIT-R-NR](https://github.com/purejosh/puresmores/blob/1.21/LICENSE.txt)
