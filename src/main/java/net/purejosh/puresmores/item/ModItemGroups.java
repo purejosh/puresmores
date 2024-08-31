@@ -8,14 +8,14 @@ public class ModItemGroups {
     public static void init() {
         // ModItems sorting
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register((itemGroup) -> itemGroup.addAfter(
-                Items.CAKE.getDefaultStack(), ModItems.CHOCOLATE.getDefaultStack()));
+                Items.CAKE.getDefaultStack(), ModItems.GRAHAM_CRACKER.getDefaultStack()));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register((itemGroup) -> itemGroup.addAfter(
-                ModItems.CHOCOLATE.getDefaultStack(), ModItems.GRAHAM_CRACKER.getDefaultStack()));
+                ModItems.GRAHAM_CRACKER.getDefaultStack(), ModItems.CHOCOLATE.getDefaultStack()));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register((itemGroup) -> itemGroup.addAfter(
-                ModItems.GRAHAM_CRACKER.getDefaultStack(), ModItems.MARSHMALLOW.getDefaultStack()));
+                ModItems.CHOCOLATE.getDefaultStack(), ModItems.MARSHMALLOW.getDefaultStack()));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register((itemGroup) -> itemGroup.addAfter(
-                ModItems.MARSHMALLOW.getDefaultStack(), ModItems.SMORE.getDefaultStack()));
+                ModItems.MARSHMALLOW.getDefaultStack(), ModItems.TOASTED_MARSHMALLOW.getDefaultStack()));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register((itemGroup) -> itemGroup.addAfter(
-                ModItems.SMORE.getDefaultStack(), ModItems.TOASTED_MARSHMALLOW.getDefaultStack()));
+                ModItems.TOASTED_MARSHMALLOW.getDefaultStack(), ModItems.SMORE.getDefaultStack()));
     }
 }
